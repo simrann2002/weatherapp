@@ -1,0 +1,90 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: 500px; */
+    /* border: 2px solid red; */
+    /* padding-left: 25vw; */
+    margin-left:25vw;
+    margin-right: 25vw;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background:url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container{
+    flex-grow: 1;
+}
+.container p{
+    /* border: 2px solid rgb(161, 158, 158); */
+    margin-left: 16px;
+}
+
+#inp{
+    margin-left: 16px;
+    border-radius: 5px;
+    padding:6px;
+    margin-right: 16px;
+}
+
+header{
+    /* border: 2px solid red; */
+    color: rgb(126, 94, 94);
+    padding-left: 16px;
+    padding-bottom: 16px;
+    /* padding-left:25vw; */
+    border-bottom: 1px solid #eeeeee;
+}
+
+header a{
+    color: #834d4d;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    /* border: 2px solid blueviolet; */
+    border-top: 1px solid #eeeeee;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+#about img{
+    width: 250px;
+    /* border: 2px solid red; */
+    margin-left: 16px;
+    margin-top: 2vh;
+}
+
+#message p{
+    margin-left: 16px;
+    /* border: 2px solid red; */
+}
+
+
+
+#error{
+    margin-left: 16px;
+}
+
+#btn{
+    padding: 6px;
+    border-radius: 2px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: #aaaaaa;
+}
+
